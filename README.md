@@ -60,7 +60,7 @@ docker run -d --name cityflower -p 80:80 --restart always cityflower-web:1.0
 
 ### 一次性配置
 
-1. 在 GitHub 新建仓库（例如：`cityFlower`）。
+1. 在 GitHub 新建仓库：`xxie1229.github.io`（仓库名固定）。
 2. 将本地项目推送到该仓库 `main` 分支。
 3. 打开仓库 `Settings -> Pages`：
 	- `Source` 选择 `GitHub Actions`。
@@ -73,13 +73,13 @@ git init
 git add .
 git commit -m "init: city flower web"
 git branch -M main
-git remote add origin https://github.com/<你的用户名>/<你的仓库名>.git
+git remote add origin https://github.com/xxie1229/xxie1229.github.io.git
 git push -u origin main
 ```
 
 推送后，GitHub Actions 会自动部署。访问地址：
 
-`https://<你的用户名>.github.io/<你的仓库名>/`
+`https://xxie1229.github.io/`
 
 ### 后续更新
 
