@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>中国城市市花介绍</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>中国城市市花介绍</h1>
+      <p>了解不同城市的市花及其文化寓意</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar" aria-label="筛选工具">
+      <label for="searchInput">搜索城市 / 市花</label>
+      <input id="searchInput" type="text" placeholder="例如：北京、牡丹、广州" />
+    </section>
+
+    <section id="flowerList" class="grid" aria-live="polite"></section>
+    <p id="emptyState" class="empty" hidden>未找到匹配结果，请尝试其他关键词。</p>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>城市市花科普网页 · 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
